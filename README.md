@@ -23,7 +23,7 @@
                         -  To manage the status of a product (active or inactive).
                         -  The "remove_product()" method deactivates the product.
           -  Payment.py
-             To manage policyholder accounts, processing payments, applying penalties, and handling product statuses accordingly.
+               To manage policyholder accounts, processing payments, applying penalties, and handling product statuses accordingly.
                         -  Handles processing payments.
                         -  Associates payments with specific policyholders and products.
                         -  Likely updates the policyholder’s balance when a payment is made.
@@ -38,14 +38,14 @@
           - The "Product" class is expected to accept an ID, name, and price for each product.
   4. Policyholder Class
        Three "Policyholder" objects are created, each representing a different person:
-      - "Policyholder1" is Jark Clark with ID 401.
-      - "Policyholder2" is Averi Kumar with ID 402.
-      - "Policyholder3" is Rakesh Olye with ID 403.
-      - The "Policyholder" class likely accepts an ID and name as arguments.
+          - "Policyholder1" is Jark Clark with ID 401.
+          - "Policyholder2" is Averi Kumar with ID 402.
+          - "Policyholder3" is Rakesh Olye with ID 403.
+          - The "Policyholder" class likely accepts an ID and name as arguments.
 
   5. Register Policyholders
-      - The "register()" method of the "Policyholder" class will sets their status to "active" and indicates that they have been registered within the system.
-      - This action is followed by a print statement (inside the "register()" method) that confirms their registration.
+          - The "register()" method of the "Policyholder" class will sets their status to "active" and indicates that they have been registered within the system.
+          - This action is followed by a print statement (inside the "register()" method) that confirms their registration.
 
   6. Policyholders Enroll in Products
        The "add_product()" method of the "Policyholder" class is called for each policyholder, enrolling them in a product (insurance).
