@@ -11,16 +11,16 @@ This code demonstrates how multiple classes ("Policyholder", "Product", and "Pay
 1.	Create Class: Below 3 class of module was create in separate files.
 	 - Policyholder: To create a policyholder, enroll them in a product, add a payment, and update their status as needed.
 		-	Handles managing policyholder information, including name, status, and the products they are enrolled in.
-	-	Allows registering, suspending, and reactivating a policyholder.
-	-	Manages enrolling in products and displaying account details.
+		-	Allows registering, suspending, and reactivating a policyholder.
+		-	Manages enrolling in products and displaying account details.
 	 - Product: To manage product life cycles, from creation to removal and reactivation, and provides a way to update the details of products as needed.
-	-	Handles creating insurance products.
-	-	To manage the status of a product (active or inactive).
-	-	The "remove_product()" method deactivates the product.
+		-	Handles creating insurance products.
+		-	To manage the status of a product (active or inactive).
+		-	The "remove_product()" method deactivates the product.
 	 - Payment: To manage policyholder accounts, processing payments, applying penalties, and handling product statuses accordingly.
-	-	Handles processing payments.
-	-	Associates payments with specific policyholders and products.
-	-	Likely updates the policyholder’s balance when a payment is made.
+		-	Handles processing payments.
+		-	Associates payments with specific policyholders and products.
+		-	Likely updates the policyholder’s balance when a payment is made.
 2.	Import Statements from class files
 	The import statements was used to bring in the classes "Policyholder", "Product", and "Payment" from class module files created in step 1.
        
@@ -37,8 +37,8 @@ Three "Policyholder" objects are created, each representing a different person:
 	-	"Policyholder3" is Rakesh Olye with ID 403.
 	-	The "Policyholder" class likely accepts an ID and name as arguments.
 5.	Register Policyholders
-	•	The "register()" method of the "Policyholder" class will sets their status to "active" and indicates that they have been registered within the system.
-	•	This action is followed by a print statement (inside the "register()" method) that confirms their registration.
+  	 - 	The "register()" method of the "Policyholder" class will sets their status to "active" and indicates that they have been registered within the system.
+	 - This action is followed by a print statement (inside the "register()" method) that confirms their registration.
 6.	Policyholders Enroll in Product.
 The "add_product()" method of the "Policyholder" class is called for each policyholder, enrolling them in a product (insurance).
 	-	"policyholder1" is enrolled in "product1" (Health Insurance).
@@ -52,13 +52,13 @@ Three "Payment" objects are created, one for each policyholder and product pair:
 	-	Payment3" processes a payment of 500 for "policyholder3" and "product3" (House Insurance).
 	-	The "process_payment()" method is called on each "Payment" object. This method likely marks the payment as successful, dates the policyholder’s balance, or does other necessary actions.
 8.	Display Account Details
-	•	This "display_account_details()" method of the "Policyholder" class is called for each policyholder.
-	•	This is method likely prints out the policyholder's name, status, enrolled products, and payment history.
+	 - This "display_account_details()" method of the "Policyholder" class is called for each policyholder.
+	 - This is method likely prints out the policyholder's name, status, enrolled products, and payment history.
 9.	Suspend Product and Policyholder
-	•	The "remove_product()" method of the "Product" class is called on "product1". This likely marks the product (Health Insurance) as inactive or unavailable.
-	•	The "suspend_policyholder()" method of the "Policyholder" class is called on "policyholder1", which likely changes their status to "suspended".
+	 - The "remove_product()" method of the "Product" class is called on "product1". This likely marks the product (Health Insurance) as inactive or unavailable.
+	 - The "suspend_policyholder()" method of the "Policyholder" class is called on "policyholder1", which likely changes their status to "suspended".
 10.	Reactivate Product and Policyholder
-	•	The status of "product1" is manually set to "'active'" (reactivating the Health Insurance product).
-	•	The "reactivate_policyholder()" method of the "Policyholder" class is called on "policyholder1", reactivating the policyholder and changing their status back to "'active'".
+	 - The status of "product1" is manually set to "'active'" (reactivating the Health Insurance product).
+	 - The "reactivate_policyholder()" method of the "Policyholder" class is called on "policyholder1", reactivating the policyholder and changing their status back to "'active'".
 11.	Suspend Another Policyholder
 Finally, the "suspend_policyholder()" method is called on "policyholder2" (Averi Kumar), changing their status to "'suspended'".
