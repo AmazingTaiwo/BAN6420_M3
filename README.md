@@ -12,7 +12,7 @@ This code demonstrates how multiple classes ("Policyholder", "Product", and "Pay
         Below 3 class of module was create in separate files.
 a.	Policyholder
 To create a policyholder, enroll them in a product, add a payment, and update their status as needed.
-              -	Handles managing policyholder information, including name, status, and the products they are enrolled in.
+-	Handles managing policyholder information, including name, status, and the products they are enrolled in.
 -	Allows registering, suspending, and reactivating a policyholder.
 -	Manages enrolling in products and displaying account details.
 b.	Product
