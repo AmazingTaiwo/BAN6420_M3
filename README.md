@@ -14,18 +14,18 @@
         Below 3 class of module was create in seperate files
           -  Policyholder
               To create a policyholder, enroll them in a product, add a payment, and update their status as needed.
-                      - Handles managing policyholder information, including name, status, and the products they are enrolled in.
-                      - Allows registering, suspending, and reactivating a policyholder.
-                      - Manages enrolling in products and displaying account details.
+                      -    Handles managing policyholder information, including name, status, and the products they are enrolled in.
+                      -    Allows registering, suspending, and reactivating a policyholder.
+                      -    Manages enrolling in products and displaying account details.
           -  Product.py
               To manage product life cycles, from creation to removal and reactivation, and provides a way to update the details of products as needed.
-                        - Handles creating insurance products.
-                        - To manage the status of a product (active or inactive).
-                        - The "remove_product()" method deactivates the product.
-          -  Payment.py
+                        -    Handles creating insurance products.
+                        -    To manage the status of a product (active or inactive).
+                        -    The "remove_product()" method deactivates the product.
+          - Payment.py
                To manage policyholder accounts, processing payments, applying penalties, and handling product statuses accordingly.
-                        - Handles processing payments.
-                        - Associates payments with specific policyholders and products.
+                        -    Handles processing payments.
+                        -    Associates payments with specific policyholders and products.
                         - Likely updates the policyholder’s balance when a payment is made.
   2. Import Statements from class files
        The import statements was used to bring in the classes "Policyholder", "Product", and "Payment" from class module files created in step 1.
