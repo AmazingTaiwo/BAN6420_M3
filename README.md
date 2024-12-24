@@ -7,7 +7,8 @@
 # Learner IS: 162894
 
 Description
-This code demonstrates how multiple classes ("Policyholder", "Product", and "Payment") create in separate files to Interact and simulate a system for managing policyholders, products (insurance), and payments.
+	This code demonstrates how multiple classes ("Policyholder", "Product", and "Payment") create in separate files to Interact and simulate a system for
+ 	managing policyholders, products (insurance), and payments.
 1.	Create Class: Below 3 class of module was create in separate files.
 	 - Policyholder: To create a policyholder, enroll them in a product, add a payment, and update their status as needed.
 		-	Handles managing policyholder information, including name, status, and the products they are enrolled in.
@@ -31,7 +32,7 @@ This code demonstrates how multiple classes ("Policyholder", "Product", and "Pay
 	-	"product3" is House Insurance with a price of 500.
  	-	The "Product" class is expected to accept an ID, name, and price for each product.
 4.	Policyholder Class
-Three "Policyholder" objects are created, each representing a different person:
+	Three "Policyholder" objects are created, each representing a different person:
 	-	"Policyholder1" is Jark Clark with ID 401.
 	-	"Policyholder2" is Averi Kumar with ID 402.
 	-	"Policyholder3" is Rakesh Olye with ID 403.
@@ -40,13 +41,13 @@ Three "Policyholder" objects are created, each representing a different person:
   	 - 	The "register()" method of the "Policyholder" class will sets their status to "active" and indicates that they have been registered within the system.
 	 - This action is followed by a print statement (inside the "register()" method) that confirms their registration.
 6.	Policyholders Enroll in Product.
-The "add_product()" method of the "Policyholder" class is called for each policyholder, enrolling them in a product (insurance).
+	The "add_product()" method of the "Policyholder" class is called for each policyholder, enrolling them in a product (insurance).
 	-	"policyholder1" is enrolled in "product1" (Health Insurance).
 	-	"policyholder2" is enrolled in "product2" (Car Insurance).
 	-	"policyholder3" is enrolled in "product3" (House Insurance).
 	-	The "add_product()" method checks if the product is active before enrolling the policyholder in it.
 7.	Process Payments
-Three "Payment" objects are created, one for each policyholder and product pair:
+	Three "Payment" objects are created, one for each policyholder and product pair:
 	-	"payment1" processes a payment of 150 for "policyholder1" and "product1" (Health Insurance).
 	-	"payment2" processes a payment of 200 for "policyholder2" and "product2" (Car Insurance).
 	-	Payment3" processes a payment of 500 for "policyholder3" and "product3" (House Insurance).
@@ -61,4 +62,4 @@ Three "Payment" objects are created, one for each policyholder and product pair:
 	 - The status of "product1" is manually set to "'active'" (reactivating the Health Insurance product).
 	 - The "reactivate_policyholder()" method of the "Policyholder" class is called on "policyholder1", reactivating the policyholder and changing their status back to "'active'".
 11.	Suspend Another Policyholder
-Finally, the "suspend_policyholder()" method is called on "policyholder2" (Averi Kumar), changing their status to "'suspended'".
+	 - Finally, the "suspend_policyholder()" method is called on "policyholder2" (Averi Kumar), changing their status to "'suspended'".
