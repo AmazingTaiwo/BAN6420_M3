@@ -15,25 +15,24 @@ This code demonstrates how multiple classes ("Policyholder", "Product", and "Pay
 	-	Allows registering, suspending, and reactivating a policyholder.
 	-	Manages enrolling in products and displaying account details.
 b.	Product
-c. ggg
-To manage product life cycles, from creation to removal and reactivation, and provides a way to update the details of products as needed.
+	To manage product life cycles, from creation to removal and reactivation, and provides a way to update the details of products as needed.
 	-	Handles creating insurance products.
 	-	To manage the status of a product (active or inactive).
 	-	The "remove_product()" method deactivates the product.
 c.	Payment
-To manage policyholder accounts, processing payments, applying penalties, and handling product statuses accordingly.
+	To manage policyholder accounts, processing payments, applying penalties, and handling product statuses accordingly.
 	-	Handles processing payments.
 	-	Associates payments with specific policyholders and products.
 	-	Likely updates the policyholder’s balance when a payment is made.
 2.	Import Statements from class files
-The import statements was used to bring in the classes "Policyholder", "Product", and "Payment" from class module files created in step 1.
+	The import statements was used to bring in the classes "Policyholder", "Product", and "Payment" from class module files created in step 1.
        
 3.	Product Management
-Three "Product" objects are created, each representing an insurance product:
+	Three "Product" objects are created, each representing an insurance product:
 	-	"product1" is Health Insurance with a price of 150.
 	-	"product2" is Car Insurance with a price of 200.
 	-	"product3" is House Insurance with a price of 500.
--	The "Product" class is expected to accept an ID, name, and price for each product.
+ 	-	The "Product" class is expected to accept an ID, name, and price for each product.
 4.	Policyholder Class
 Three "Policyholder" objects are created, each representing a different person:
 	-	"Policyholder1" is Jark Clark with ID 401.
