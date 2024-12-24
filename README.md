@@ -23,7 +23,7 @@ Description
 		-	Associates payments with specific policyholders and products.
 		-	Likely updates the policyholder’s balance when a payment is made.
 2.	Import Statements from class files
-	The import statements was used to bring in the classes "Policyholder", "Product", and "Payment" from class module files created in step 1.
+	The import statements was used to bring in the classes "Policyholder.py", "Product.py", and "Payment.py" from class module files created in step 1.
        
 3.	Product Management
 	Three "Product" objects are created, each representing an insurance product:
