@@ -10,7 +10,7 @@ Description
 This code demonstrates how multiple classes ("Policyholder", "Product", and "Payment") create in separate files to Interact and simulate a system for managing policyholders, products (insurance), and payments.
 1.	Create Class: Below 3 class of module was create in separate files.
 	 - Policyholder: To create a policyholder, enroll them in a product, add a payment, and update their status as needed.
-	-	Handles managing policyholder information, including name, status, and the products they are enrolled in.
+		-	Handles managing policyholder information, including name, status, and the products they are enrolled in.
 	-	Allows registering, suspending, and reactivating a policyholder.
 	-	Manages enrolling in products and displaying account details.
 	 - Product: To manage product life cycles, from creation to removal and reactivation, and provides a way to update the details of products as needed.
