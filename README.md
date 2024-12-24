@@ -12,7 +12,7 @@
   
   1.Create Class
       Below 3 class of module was create in seperate files
-          -  Policyholder.py
+          -  Policyholder
               To create a policyholder, enroll them in a product, add a payment, and update their status as needed.
                       -  Handles managing policyholder information, including name, status, and the products they are enrolled in.
                       -  Allows registering, suspending, and reactivating a policyholder.
